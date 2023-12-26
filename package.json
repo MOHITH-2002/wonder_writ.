@@ -1,13 +1,10 @@
 {
-  "name": "starter",
+  "name": "wonderwrit",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && npx prisma generate",
-    "prisma:generate": "npx prisma generate",
     "build": "next build",
-    "build:full": "npm run prisma:generate && npm run build && next build",
     "start": "next start",
     "lint": "next lint"
   },
