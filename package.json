@@ -7,7 +7,7 @@
     "build": "next build && npx prisma generate",
     "prisma:generate": "npx prisma generate",
     "build": "next build",
-    "build:full": "npm run prisma:generate && npm run build",
+    "build:full": "npm run prisma:generate && npm run build && next build",
     "start": "next start",
     "lint": "next lint"
   },
