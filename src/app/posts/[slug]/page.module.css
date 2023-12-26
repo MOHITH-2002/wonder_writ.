@@ -1,0 +1,78 @@
+.topcontainer{
+    display: flex;
+    gap:50px;
+}
+.image{
+    position: relative;
+    height:400px;
+    width: 100%;
+}
+.img{
+    object-fit: cover;
+}
+.userinfo{
+    display: flex;
+    flex-direction: column;
+    gap:10px
+}
+.usernameInfo{
+    display: flex;
+    gap:20px;
+    align-items: center;
+
+}
+.userimage{
+    border-radius: 50%;
+    object-fit: cover;
+}
+.content{
+
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.title{
+    text-align:justify;
+}
+.username{
+    color:#658864;
+}
+.date{
+    color:#DAD4B5;
+}
+.left{
+display: flex;
+flex:3;
+flex-direction: column;
+}
+
+.bottomcontainer{
+    display: flex;
+    margin-top: 30px;
+    gap:30px;
+}
+.p{
+    text-align: justify;
+    color:grey;
+}
+
+.right{
+    display: flex;
+    flex:1;
+}
+
+@media screen and (max-width:768px) {
+    .right{
+        display: none;
+    }
+    .topcontainer{
+        flex-direction: column-reverse;
+    }
+    .content{
+        width:100%;
+        gap:20px;
+    }
+    
+}

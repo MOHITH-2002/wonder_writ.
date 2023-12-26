@@ -1,0 +1,91 @@
+:root{
+    --bgcolor :#FBFAF5;
+    --textcolor : #272829;
+    --background-color : #526D82;
+    --textcolordark : #DDE6ED;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+body{
+    max-width: 100vw;
+    overflow-x: hidden;
+    /* margin: auto; */
+}
+.dark{
+    --bgcolor :#170f1e;;
+    --textcolor : #FBFAF5;
+    --background-color : #FBFAF5;
+    --textcolordark : #DDE6ED;
+}
+.light{
+    --bgcolor :#FBFAF5;
+    --textcolor : #170f1e;
+    --background-color :#170f1e;
+    --textcolordark : #526D82;
+}
+
+
+.container{
+    min-height:100vh;
+    background-color:var(--bgcolor);
+    color:var(--textcolor);
+}
+.wrapper{
+    max-width:1500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left:60px;
+    padding-right: 60px;
+    
+}
+
+@media screen and (max-width:1200px) {
+    .wrapper{
+        max-width:1024px;
+    }
+    
+}
+@media screen and (max-width:1024px) {
+    .wrapper{
+        max-width:840px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+}
+@media screen and (max-width:840px) {
+    .wrapper{
+        max-width:768px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .wrapper{
+        max-width:500px;
+        padding-left:30px;
+        padding-right: 30px;
+
+    }
+    
+}
+@media screen and (max-width:500px) {
+    .wrapper{
+        /* max-width:300px; */
+        padding-left: 20px;
+        padding-right: 20px;
+       
+    }
+}
+
+
+/*  for every Link tag */
+a {
+    text-decoration: none;
+    color : var(--textcolor);
+}

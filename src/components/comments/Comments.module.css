@@ -1,0 +1,50 @@
+.editor{
+    margin-top: 30px;
+}
+.text{
+    width:60%;
+    height: 40px;
+    outline:none;
+
+}
+.comments{
+    margin-top: 30px;
+}
+.button{
+    width: 10%;
+    height: 40px;
+    background-color: #1DB954;
+    border:none;
+    cursor:pointer;
+}
+.username{
+    color:#658864;
+}
+.date{
+    color:#DAD4B5;
+}
+.userinfo{
+    display: flex;
+    flex-direction: column;
+    gap:10px
+}
+.usernameInfo{
+    display: flex;
+    gap:20px;
+    align-items: center;
+
+}
+.userimage{
+    border-radius: 50%;
+    object-fit: cover;
+}
+.commentlist{
+
+    gap:20px;
+    margin-top:30px;
+
+}
+.login{
+    margin-top:20px;
+    color:#1DB954;
+}

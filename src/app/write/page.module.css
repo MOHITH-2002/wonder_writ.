@@ -1,0 +1,64 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.input{
+    background-color: transparent;
+    color:var(--textcolor);
+    height:50px;
+    font-size: 30px;
+    border: none;
+    outline: none;
+}
+.more{
+    display: flex;
+    gap:30px;
+}
+.circle{
+    font-size: 30px;
+    cursor: pointer;
+}
+.image{
+    font-size: 30px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.link{
+    font-size: 30px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.video{
+    font-size: 30px;
+    cursor: pointer;
+}
+.texteditor{
+    height:200px;
+    
+}
+.publish{
+    display: flex;
+    position: absolute;
+    top:120px;
+    
+    right:70px;
+}
+.select{
+    margin-bottom: 50px;
+    padding: 10px 20px;
+    margin-left: 50px;
+    width: max-content;
+  }
+.publishbutton{
+    padding:10px;
+    background-color:#1DB954;
+    cursor: pointer;
+    border:none;
+}
+.publishbutton:hover{
+    border-radius: 10px;
+    transition: 0.3s;
+}
